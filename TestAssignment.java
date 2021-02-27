@@ -1,10 +1,14 @@
-package org.redischool.introtojava
+package org.redischool.introtojava;
 
 public class TestAssignment {
     
     
-    static String greet(String name) {
-        
+    public static void main(String[] args) {
+      greet("Hello world!");
+    }
+
+    static void greet(String name) {
+        System.out.println(name);
     }
 
 }
